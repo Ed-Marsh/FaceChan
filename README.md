@@ -64,7 +64,7 @@ MIT licensed. Fork it. Run it. Make it yours.
 ## Quick Start — Local Dev
 
 ```bash
-git clone https://github.com/goodcountry/FaceChan.git
+git clone https://github.com/Ed-Marsh/FaceChan.git
 cd FaceChan
 docker compose up --build -d
 ```
@@ -426,10 +426,10 @@ More practically: when operators fix bugs, add translations, build tooling, or i
 
 **How:**
 
-Hit the Fork button on the [FaceChan GitHub page](https://github.com/goodcountry/FaceChan). Clone your fork. Add the upstream as a remote so you can pull in updates:
+Hit the Fork button on the [FaceChan GitHub page](https://github.com/Ed-Marsh/FaceChan). Clone your fork. Add the upstream as a remote so you can pull in updates:
 
 ```bash
-git remote add upstream https://github.com/goodcountry/FaceChan.git
+git remote add upstream https://github.com/Ed-Marsh/FaceChan.git
 ```
 
 That's it. You now have your own version and a line back to the source.
