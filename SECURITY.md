@@ -4,28 +4,16 @@ Found a vulnerability? Thank you. Here's how to reach me — including how to do
 
 ## Contact
 
-**Email:** `kinofacechan@proton.me`
+**Email:** `eddy.marsh@gmail.com`
 
-**PGP key:** [`pgp.asc`](./pgp.asc) in this repository.
-
-```
-Fingerprint: B3BF 5E7F 9205 2C90 88DF  7E4F FCFC 5EFD DAE5 8505
-Kino <kinofacechan@proton.me>
-```
-
-This is the same key that signs every merge to `main`, so you can verify you have the real contact key by checking the repository's commit signatures — an attacker who swapped this file would break the signed history.
-
-```bash
-gpg --import pgp.asc
-git log --show-signature --merges -5
-```
+I don't publish a PGP key, so email to this address is not end-to-end encrypted. If that matters for what you're reporting, see below.
 
 ## Reporting anonymously
 
 You don't need to identify yourself to report a vulnerability. Some honest notes if you care about that:
 
-- **A throwaway address is fine.** Proton Mail accepts signups over Tor. Mail between Proton accounts is end-to-end encrypted automatically, no PGP setup needed.
-- **From any other provider, encrypt to the key above.** PGP encrypts the message body — but not the metadata. Your provider still sees who you emailed and when. If that matters to you, use a burner address created over Tor, not your real one with encryption bolted on.
+- **A throwaway address is fine.** Proton Mail accepts signups over Tor.
+- **Email metadata is visible.** Your provider, and mine, can see who emailed whom and when. If that matters to you, use a burner address created over Tor, not your real one.
 - **GitHub private vulnerability reporting** is enabled on this repository as a low-friction alternative. Be aware it requires a GitHub account, so it's pseudonymous at best, not anonymous.
 - **Credit is yours to take or leave.** Tell me how you want to be credited, or that you don't. Default is uncredited.
 
