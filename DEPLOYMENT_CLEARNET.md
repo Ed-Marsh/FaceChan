@@ -119,7 +119,7 @@ We will run Certbot after nginx is configured below.
 
 ```bash
 cd ~
-git clone https://github.com/goodcountry/FaceChan.git
+git clone https://github.com/Ed-Marsh/FaceChan.git
 cd FaceChan
 cp .env.example .env
 ```

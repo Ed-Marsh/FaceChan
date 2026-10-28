@@ -289,7 +289,7 @@ Keep this backup somewhere that survives a reinstall — inside your VeraCrypt v
 ```bash
 # 1. Mount your encrypted volume and navigate to your working directory
 # 2. Clone the repo
-git clone https://github.com/goodcountry/FaceChan.git
+git clone https://github.com/Ed-Marsh/FaceChan.git
 cd FaceChan
 
 # 3. Create your .env from the example
